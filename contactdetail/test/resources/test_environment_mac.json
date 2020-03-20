@@ -1,0 +1,6 @@
+{
+  "GetContactFunction": {
+    "ENDPOINT_OVERRIDE": "http://docker.for.mac.localhost:8000",
+    "TABLE_NAME": "greenhills-contacts"
+  }
+}

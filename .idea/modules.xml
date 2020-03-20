@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/contactdetail/contactdetail.iml" filepath="$PROJECT_DIR$/contactdetail/contactdetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greenhills-nodejs-server.iml" filepath="$PROJECT_DIR$/greenhills-nodejs-server.iml" />
+    </modules>
+  </component>
+</project>

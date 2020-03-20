@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce3c235d-77af-422c-873d-62948d1bca5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/contactdetail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/test/appTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactdetail/test/resources/test_environment_mac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/event.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greenhills-nodejs-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZLMtXwFzTcLM2o6CDQvceituR2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/contactdetail/node_modules/mocha" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.18851252" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager" selected="AWS Lambda.[Local] ContactDetailsFunction">
+    <configuration name="/Users/gerardsavage/dev/greenhills-nodejs-server/template.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="greenhills-nodejs-server" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/template.yaml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[Local] ContactDetailsFunction" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="eu-west-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" />
+      <option name="logicalFunctionName" value="ContactDetailsFunction" />
+      <option name="memorySize" value="128" />
+      <option name="runtime" />
+      <option name="templateFile" value="$PROJECT_DIR$/template.yaml" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="true" />
+      <option name="input" value="{&#10;  &quot;resource&quot;: &quot;/details/{contact_id}&quot;,&#10;  &quot;path&quot;: &quot;/details/1&quot;,&#10;  &quot;httpMethod&quot;: &quot;GET&quot;,&#10;  &quot;headers&quot;: null,&#10;  &quot;multiValueHeaders&quot;: null,&#10;  &quot;queryStringParameters&quot;: null,&#10;  &quot;multiValueQueryStringParameters&quot;: null,&#10;  &quot;pathParameters&quot;: {&#10;    &quot;contact_id&quot;: &quot;1&quot;&#10;  },&#10;  &quot;stageVariables&quot;: null,&#10;  &quot;requestContext&quot;: {&#10;    &quot;resourceId&quot;: &quot;r4tuew&quot;,&#10;    &quot;resourcePath&quot;: &quot;/details/{contact_id}&quot;,&#10;    &quot;httpMethod&quot;: &quot;GET&quot;,&#10;    &quot;extendedRequestId&quot;: &quot;JpDUOHIajoEFROw=&quot;,&#10;    &quot;requestTime&quot;: &quot;19/Mar/2020:14:18:54 +0000&quot;,&#10;    &quot;path&quot;: &quot;/details/{contact_id}&quot;,&#10;    &quot;accountId&quot;: &quot;382959638855&quot;,&#10;    &quot;protocol&quot;: &quot;HTTP/1.1&quot;,&#10;    &quot;stage&quot;: &quot;test-invoke-stage&quot;,&#10;    &quot;domainPrefix&quot;: &quot;testPrefix&quot;,&#10;    &quot;requestTimeEpoch&quot;: 1584627534113,&#10;    &quot;requestId&quot;: &quot;9fd7d6fe-99eb-4fd4-8a23-09f14d1d45af&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;apiKey&quot;: &quot;test-invoke-api-key&quot;,&#10;      &quot;principalOrgId&quot;: null,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;userArn&quot;: &quot;arn:aws:iam::382959638855:user/getbehindthmule&quot;,&#10;      &quot;apiKeyId&quot;: &quot;test-invoke-api-key-id&quot;,&#10;      &quot;userAgent&quot;: &quot;aws-internal/3 aws-sdk-java/1.11.719 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.242-b08 java/1.8.0_242 vendor/Oracle_Corporation&quot;,&#10;      &quot;accountId&quot;: &quot;382959638855&quot;,&#10;      &quot;caller&quot;: &quot;AIDAVSKRMLFDZFUZHLLXX&quot;,&#10;      &quot;sourceIp&quot;: &quot;test-invoke-source-ip&quot;,&#10;      &quot;accessKey&quot;: &quot;ASIAVSKRMLFD4VHTEWXA&quot;,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;user&quot;: &quot;AIDAVSKRMLFDZFUZHLLXX&quot;&#10;    },&#10;    &quot;domainName&quot;: &quot;testPrefix.testDomainName&quot;,&#10;    &quot;apiId&quot;: &quot;by4pc0wbrg&quot;&#10;  },&#10;  &quot;body&quot;: null,&#10;  &quot;isBase64Encoded&quot;: false&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="eu-west-1" />
+      <option name="functionName" value="greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D" />
+      <option name="input" value="{&#10;  &quot;resource&quot;: &quot;/details/{contact_id}&quot;,&#10;  &quot;path&quot;: &quot;/details/1&quot;,&#10;  &quot;httpMethod&quot;: &quot;GET&quot;,&#10;  &quot;headers&quot;: null,&#10;  &quot;multiValueHeaders&quot;: null,&#10;  &quot;queryStringParameters&quot;: null,&#10;  &quot;multiValueQueryStringParameters&quot;: null,&#10;  &quot;pathParameters&quot;: {&#10;    &quot;contact_id&quot;: &quot;1&quot;&#10;  },&#10;  &quot;stageVariables&quot;: null,&#10;  &quot;requestContext&quot;: {&#10;    &quot;resourceId&quot;: &quot;r4tuew&quot;,&#10;    &quot;resourcePath&quot;: &quot;/details/{contact_id}&quot;,&#10;    &quot;httpMethod&quot;: &quot;GET&quot;,&#10;    &quot;extendedRequestId&quot;: &quot;JpDUOHIajoEFROw=&quot;,&#10;    &quot;requestTime&quot;: &quot;19/Mar/2020:14:18:54 +0000&quot;,&#10;    &quot;path&quot;: &quot;/details/{contact_id}&quot;,&#10;    &quot;accountId&quot;: &quot;382959638855&quot;,&#10;    &quot;protocol&quot;: &quot;HTTP/1.1&quot;,&#10;    &quot;stage&quot;: &quot;test-invoke-stage&quot;,&#10;    &quot;domainPrefix&quot;: &quot;testPrefix&quot;,&#10;    &quot;requestTimeEpoch&quot;: 1584627534113,&#10;    &quot;requestId&quot;: &quot;9fd7d6fe-99eb-4fd4-8a23-09f14d1d45af&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;apiKey&quot;: &quot;test-invoke-api-key&quot;,&#10;      &quot;principalOrgId&quot;: null,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;userArn&quot;: &quot;arn:aws:iam::382959638855:user/getbehindthmule&quot;,&#10;      &quot;apiKeyId&quot;: &quot;test-invoke-api-key-id&quot;,&#10;      &quot;userAgent&quot;: &quot;aws-internal/3 aws-sdk-java/1.11.719 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.242-b08 java/1.8.0_242 vendor/Oracle_Corporation&quot;,&#10;      &quot;accountId&quot;: &quot;382959638855&quot;,&#10;      &quot;caller&quot;: &quot;AIDAVSKRMLFDZFUZHLLXX&quot;,&#10;      &quot;sourceIp&quot;: &quot;test-invoke-source-ip&quot;,&#10;      &quot;accessKey&quot;: &quot;ASIAVSKRMLFD4VHTEWXA&quot;,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;user&quot;: &quot;AIDAVSKRMLFDZFUZHLLXX&quot;&#10;    },&#10;    &quot;domainName&quot;: &quot;testPrefix.testDomainName&quot;,&#10;    &quot;apiId&quot;: &quot;by4pc0wbrg&quot;&#10;  },&#10;  &quot;body&quot;: null,&#10;  &quot;isBase64Encoded&quot;: false&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main lambda handler tests.response body should return an object with id, phone and email properties" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/contactdetail/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/contactdetail</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/contactdetail/test/appTest.js</test-file>
+      <test-names>
+        <name value="main lambda handler tests" />
+        <name value="response body should return an object with id, phone and email properties" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="main lambda handler tests.verify successful response" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/contactdetail/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/contactdetail</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/contactdetail/test/appTest.js</test-file>
+      <test-names>
+        <name value="main lambda handler tests" />
+        <name value="verify successful response" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="AWS Lambda.[Local] ContactDetailsFunction" />
+      <item itemvalue="AWS Lambda.[Remote] greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D" />
+      <item itemvalue="Mocha.main lambda handler tests.verify successful response" />
+      <item itemvalue="Mocha.main lambda handler tests.response body should return an object with id, phone and email properties" />
+      <item itemvalue="TestNG./Users/gerardsavage/dev/greenhills-nodejs-server/template.yaml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="AWS Lambda.[Local] ContactDetailsFunction" />
+        <item itemvalue="TestNG./Users/gerardsavage/dev/greenhills-nodejs-server/template.yaml" />
+        <item itemvalue="Mocha.main lambda handler tests.response body should return an object with id, phone and email properties" />
+        <item itemvalue="AWS Lambda.[Remote] greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D" />
+        <item itemvalue="Mocha.main lambda handler tests.verify successful response" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce3c235d-77af-422c-873d-62948d1bca5b" name="Default Changelist" comment="" />
+      <created>1584614135086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584614135086</updated>
+      <workItem from="1584614139851" duration="25161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="-863" key="#Project_Structure" timestamp="1584615475893">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="361" y="-863" key="#Project_Structure/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584615475893" />
+    <state x="399" y="-980" key="#[Local]_ContactDetailsFunction" timestamp="1584626117071">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="399" y="-980" key="#[Local]_ContactDetailsFunction/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584626117071" />
+    <state x="399" y="-980" key="#[Local]_app.lambdaHandler" timestamp="1584627427165">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="399" y="-980" key="#[Local]_app.lambdaHandler/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584627427165" />
+    <state x="478" y="-876" width="580" height="694" key="#[Remote]_greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D" timestamp="1584625717694">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="478" y="-876" width="580" height="694" key="#[Remote]_greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584625717694" />
+    <state x="225" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584631961913">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="225" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584631961913" />
+    <state x="524" y="-813" key="#xdebugger.evaluate" timestamp="1584632855595">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="524" y="-813" key="#xdebugger.evaluate/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632855595" />
+    <state width="939" height="357" key="GridCell.Tab.0.bottom" timestamp="1584632981974">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.0.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981974" />
+    <state width="939" height="357" key="GridCell.Tab.0.center" timestamp="1584632981973">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.0.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981973" />
+    <state width="939" height="357" key="GridCell.Tab.0.left" timestamp="1584632981972">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.0.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981972" />
+    <state width="939" height="357" key="GridCell.Tab.0.right" timestamp="1584632981974">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.0.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981974" />
+    <state width="939" height="357" key="GridCell.Tab.1.bottom" timestamp="1584632981976">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.1.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
+    <state width="939" height="357" key="GridCell.Tab.1.center" timestamp="1584632981975">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.1.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981975" />
+    <state width="939" height="357" key="GridCell.Tab.1.left" timestamp="1584632981974">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.1.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981974" />
+    <state width="939" height="357" key="GridCell.Tab.1.right" timestamp="1584632981975">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.1.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981975" />
+    <state width="939" height="357" key="GridCell.Tab.2.bottom" timestamp="1584632981977">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.2.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981977" />
+    <state width="939" height="357" key="GridCell.Tab.2.center" timestamp="1584632981976">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.2.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
+    <state width="939" height="357" key="GridCell.Tab.2.left" timestamp="1584632981976">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.2.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
+    <state width="939" height="357" key="GridCell.Tab.2.right" timestamp="1584632981976">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.2.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
+    <state width="939" height="357" key="GridCell.Tab.3.bottom" timestamp="1584632688547">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.3.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688547" />
+    <state width="939" height="357" key="GridCell.Tab.3.center" timestamp="1584632688546">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.3.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688546" />
+    <state width="939" height="357" key="GridCell.Tab.3.left" timestamp="1584632688545">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.3.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688545" />
+    <state width="939" height="357" key="GridCell.Tab.3.right" timestamp="1584632688546">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.3.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688546" />
+    <state width="927" height="526" key="XDebugger.FullValuePopup" timestamp="1584632611565">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="927" height="526" key="XDebugger.FullValuePopup/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632611565" />
+    <state x="190" y="-802" key="new project wizard" timestamp="1584614249794">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="190" y="-802" key="new project wizard/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584614249794" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
+          <line>97</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/app.js</url>
+          <line>49</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/app.js</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
+          <line>76</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/app.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
+          <line>79</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
