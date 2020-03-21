@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c235d-77af-422c-873d-62948d1bca5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/contactdetail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/test/appTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactdetail/test/resources/test_environment_mac.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/event.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greenhills-nodejs-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactdetail/test/appTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/contactdetail/test/appTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.18851252" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
-  <component name="RunManager" selected="AWS Lambda.[Local] ContactDetailsFunction">
+  <component name="RunManager" selected="Mocha.main lambda handler tests.response body should return an object with id, phone and email properties">
     <configuration name="/Users/gerardsavage/dev/greenhills-nodejs-server/template.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="greenhills-nodejs-server" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/template.yaml" />
@@ -139,9 +122,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.main lambda handler tests.response body should return an object with id, phone and email properties" />
         <item itemvalue="AWS Lambda.[Local] ContactDetailsFunction" />
         <item itemvalue="TestNG./Users/gerardsavage/dev/greenhills-nodejs-server/template.yaml" />
-        <item itemvalue="Mocha.main lambda handler tests.response body should return an object with id, phone and email properties" />
         <item itemvalue="AWS Lambda.[Remote] greenhills-nodejs-server-ContactDetailsFunction-1WXVOSBY0492D" />
         <item itemvalue="Mocha.main lambda handler tests.verify successful response" />
       </list>
@@ -169,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584614135086</updated>
-      <workItem from="1584614139851" duration="25161000" />
+      <workItem from="1584614139851" duration="26737000" />
     </task>
     <servers />
   </component>
@@ -201,70 +184,74 @@
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
     <state x="524" y="-813" key="#xdebugger.evaluate/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632855595" />
-    <state width="939" height="357" key="GridCell.Tab.0.bottom" timestamp="1584632981974">
+    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog" timestamp="1584801206617">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981974" />
-    <state width="939" height="357" key="GridCell.Tab.0.center" timestamp="1584632981973">
+    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584801206617" />
+    <state width="939" height="357" key="GridCell.Tab.0.bottom" timestamp="1584800990413">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981973" />
-    <state width="939" height="357" key="GridCell.Tab.0.left" timestamp="1584632981972">
+    <state width="939" height="357" key="GridCell.Tab.0.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990413" />
+    <state width="939" height="357" key="GridCell.Tab.0.center" timestamp="1584800990412">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981972" />
-    <state width="939" height="357" key="GridCell.Tab.0.right" timestamp="1584632981974">
+    <state width="939" height="357" key="GridCell.Tab.0.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990412" />
+    <state width="939" height="357" key="GridCell.Tab.0.left" timestamp="1584800990411">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981974" />
-    <state width="939" height="357" key="GridCell.Tab.1.bottom" timestamp="1584632981976">
+    <state width="939" height="357" key="GridCell.Tab.0.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990411" />
+    <state width="939" height="357" key="GridCell.Tab.0.right" timestamp="1584800990413">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.1.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
-    <state width="939" height="357" key="GridCell.Tab.1.center" timestamp="1584632981975">
+    <state width="939" height="357" key="GridCell.Tab.0.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990413" />
+    <state width="939" height="357" key="GridCell.Tab.1.bottom" timestamp="1584800990416">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.1.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981975" />
-    <state width="939" height="357" key="GridCell.Tab.1.left" timestamp="1584632981974">
+    <state width="939" height="357" key="GridCell.Tab.1.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990416" />
+    <state width="939" height="357" key="GridCell.Tab.1.center" timestamp="1584800990415">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.1.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981974" />
-    <state width="939" height="357" key="GridCell.Tab.1.right" timestamp="1584632981975">
+    <state width="939" height="357" key="GridCell.Tab.1.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990415" />
+    <state width="939" height="357" key="GridCell.Tab.1.left" timestamp="1584800990414">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.1.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981975" />
-    <state width="939" height="357" key="GridCell.Tab.2.bottom" timestamp="1584632981977">
+    <state width="939" height="357" key="GridCell.Tab.1.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990414" />
+    <state width="939" height="357" key="GridCell.Tab.1.right" timestamp="1584800990416">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.2.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981977" />
-    <state width="939" height="357" key="GridCell.Tab.2.center" timestamp="1584632981976">
+    <state width="939" height="357" key="GridCell.Tab.1.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990416" />
+    <state width="939" height="357" key="GridCell.Tab.2.bottom" timestamp="1584800990418">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.2.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
-    <state width="939" height="357" key="GridCell.Tab.2.left" timestamp="1584632981976">
+    <state width="939" height="357" key="GridCell.Tab.2.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990418" />
+    <state width="939" height="357" key="GridCell.Tab.2.center" timestamp="1584800990417">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.2.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
-    <state width="939" height="357" key="GridCell.Tab.2.right" timestamp="1584632981976">
+    <state width="939" height="357" key="GridCell.Tab.2.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990417" />
+    <state width="939" height="357" key="GridCell.Tab.2.left" timestamp="1584800990416">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.2.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632981976" />
-    <state width="939" height="357" key="GridCell.Tab.3.bottom" timestamp="1584632688547">
+    <state width="939" height="357" key="GridCell.Tab.2.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990416" />
+    <state width="939" height="357" key="GridCell.Tab.2.right" timestamp="1584800990417">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.3.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688547" />
-    <state width="939" height="357" key="GridCell.Tab.3.center" timestamp="1584632688546">
+    <state width="939" height="357" key="GridCell.Tab.2.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990417" />
+    <state width="939" height="357" key="GridCell.Tab.3.bottom" timestamp="1584800990419">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.3.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688546" />
-    <state width="939" height="357" key="GridCell.Tab.3.left" timestamp="1584632688545">
+    <state width="939" height="357" key="GridCell.Tab.3.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990419" />
+    <state width="939" height="357" key="GridCell.Tab.3.center" timestamp="1584800990419">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.3.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688545" />
-    <state width="939" height="357" key="GridCell.Tab.3.right" timestamp="1584632688546">
+    <state width="939" height="357" key="GridCell.Tab.3.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990419" />
+    <state width="939" height="357" key="GridCell.Tab.3.left" timestamp="1584800990418">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.3.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632688546" />
+    <state width="939" height="357" key="GridCell.Tab.3.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990418" />
+    <state width="939" height="357" key="GridCell.Tab.3.right" timestamp="1584800990419">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="357" key="GridCell.Tab.3.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990419" />
     <state width="927" height="526" key="XDebugger.FullValuePopup" timestamp="1584632611565">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
@@ -279,7 +266,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
-          <line>97</line>
+          <line>96</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -297,7 +284,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
-          <line>76</line>
+          <line>75</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -309,9 +296,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
-          <line>79</line>
+          <line>78</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
+          <line>62</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/test/appTest.js</url>
+          <line>61</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/contactdetail/app.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

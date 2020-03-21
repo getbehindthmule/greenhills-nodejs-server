@@ -30,7 +30,7 @@ TBD
 ```
 ##Local development
 
-**Invoking function locally through local API Gateway**
+**Invoking function locally through local DynamoDB**
 1. Start DynamoDB Local in a Docker container. 
  `docker run -p 8000:8000 amazon/dynamodb-local`
 2. Create the DynamoDB table. 

@@ -59,10 +59,9 @@ const event = {
 describe('main lambda handler tests', function () {
 
     before('set up mocks', function () {
-        AWS.mock('DynamoDB', 'getItem', function (params, callback) {
-            callback(null, { id: 1, phone: '074 1500 1600', email: 'gerardsavage@me.com'});
-        })
-
+        AWS.mock('DynamoDB.DocumentClient', 'get', function (params, callback) {
+            callback(null, { Item: { id: 1, phone: '074 1500 1600', email: 'gerardsavage@me.com'}});
+        });
     });
 
     after('remove mocks', function () {
