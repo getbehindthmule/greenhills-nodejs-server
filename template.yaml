@@ -18,6 +18,12 @@ Resources:
       CodeUri: contactdetail
       Handler: app.lambdaHandler
       Runtime: nodejs12.x
+      AutoPublishAlias: live
+      DeploymentPreference:
+        Type: Linear10PercentEvery1Minute
+        Hooks:
+          PreTraffic: !Ref GreenhillsNodejsServerPreTrafficHook
+      MemorySize: 512
       Policies:
         - DynamoDBCrudPolicy:
             TableName: greenhills-contacts
@@ -28,7 +34,33 @@ Resources:
             Path: /details/{contact_id}
             Method: get
 
-
+  GreenhillsNodejsServerPreTrafficHook:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: codedeployhook
+      Handler: greenhills_nodejs_server_preTrafficHook.handler
+      Policies:
+        - Version: "2012-10-17"
+          Statement:
+            - Effect: "Allow"
+              Action:
+                - "codedeploy:PutLifecycleEventHookExecutionStatus"
+              Resource:
+                !Sub 'arn:aws:codedeploy:${AWS::Region}:${AWS::AccountId}:deploymentgroup:${ServerlessDeploymentApplication}/*'
+        - Version: "2012-10-17"
+          Statement:
+            - Effect: "Allow"
+              Action:
+                - "lambda:InvokeFunction"
+              Resource: !Ref ContactDetailsFunction.Version
+      Runtime: nodejs12.x
+      FunctionName: 'CodeDeployHook_greenhills_nodejs_server_preTrafficHook'
+      DeploymentPreference:
+        Enabled: false
+      Timeout: 30
+      Environment:
+        Variables:
+          NewVersion: !Ref ContactDetailsFunction.Version
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function

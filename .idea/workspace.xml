@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c235d-77af-422c-873d-62948d1bca5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codedeployhook/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codedeployhook/codedeployhook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codedeployhook/greenhills_nodejs_server_preTrafficHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactdetail/test/appTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/contactdetail/test/appTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +38,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18851252" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codedeployhook" />
+    </key>
   </component>
   <component name="RunManager" selected="Mocha.main lambda handler tests.response body should return an object with id, phone and email properties">
     <configuration name="/Users/gerardsavage/dev/greenhills-nodejs-server/template.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -152,18 +163,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584614135086</updated>
-      <workItem from="1584614139851" duration="26737000" />
+      <workItem from="1584614139851" duration="30814000" />
     </task>
+    <task id="LOCAL-00001" summary="updated unit tests">
+      <created>1584801221064</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584801221064</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated unit tests" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="-863" key="#Project_Structure" timestamp="1584615475893">
+    <state x="361" y="-863" key="#Project_Structure" timestamp="1584802386344">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="361" y="-863" key="#Project_Structure/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584615475893" />
+    <state x="361" y="-863" key="#Project_Structure/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584802386344" />
     <state x="399" y="-980" key="#[Local]_ContactDetailsFunction" timestamp="1584626117071">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
@@ -184,26 +207,30 @@
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
     <state x="524" y="-813" key="#xdebugger.evaluate/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632855595" />
-    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog" timestamp="1584801206617">
+    <state x="371" y="-926" key="CommitChangelistDialog2" timestamp="1584805380921">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584801206617" />
-    <state width="939" height="357" key="GridCell.Tab.0.bottom" timestamp="1584800990413">
+    <state x="371" y="-926" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584805380921" />
+    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog" timestamp="1584805289791">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990413" />
-    <state width="939" height="357" key="GridCell.Tab.0.center" timestamp="1584800990412">
+    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584805289791" />
+    <state width="939" height="290" key="GridCell.Tab.0.bottom" timestamp="1584802436427">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990412" />
-    <state width="939" height="357" key="GridCell.Tab.0.left" timestamp="1584800990411">
+    <state width="939" height="290" key="GridCell.Tab.0.bottom/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584802436427" />
+    <state width="939" height="290" key="GridCell.Tab.0.center" timestamp="1584802436423">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990411" />
-    <state width="939" height="357" key="GridCell.Tab.0.right" timestamp="1584800990413">
+    <state width="939" height="290" key="GridCell.Tab.0.center/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584802436423" />
+    <state width="939" height="290" key="GridCell.Tab.0.left" timestamp="1584802436421">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="939" height="357" key="GridCell.Tab.0.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584800990413" />
+    <state width="939" height="290" key="GridCell.Tab.0.left/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584802436421" />
+    <state width="939" height="290" key="GridCell.Tab.0.right" timestamp="1584802436424">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="939" height="290" key="GridCell.Tab.0.right/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584802436424" />
     <state width="939" height="357" key="GridCell.Tab.1.bottom" timestamp="1584800990416">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
@@ -256,10 +283,14 @@
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
     <state width="927" height="526" key="XDebugger.FullValuePopup/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632611565" />
-    <state x="190" y="-802" key="new project wizard" timestamp="1584614249794">
+    <state x="441" y="-772" width="639" height="486" key="find.popup" timestamp="1584803794999">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="190" y="-802" key="new project wizard/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584614249794" />
+    <state x="441" y="-772" width="639" height="486" key="find.popup/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584803794999" />
+    <state x="190" y="-802" key="new project wizard" timestamp="1584802436142">
+      <screen x="-199" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="190" y="-802" key="new project wizard/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584802436142" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

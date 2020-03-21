@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+
+  build:
+    commands:
+      - sam build   --template template.yaml  --build-dir .aws-sam/build
+
+  post_build:
+    commands:
+      - sam package --template-file .aws-sam/build/template.yaml --output-template-file packaged-template.yaml --s3-bucket greenhills-nodejs-server
+      - echo "SAM packaging completed on `date`"
+
+artifacts:
+  files:
+    - packaged-template.yaml
+  discard-paths: yes
