@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c235d-77af-422c-873d-62948d1bca5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedeployhook/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedeployhook/codedeployhook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codedeployhook/greenhills_nodejs_server_preTrafficHook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codedeployhook/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codedeployhook/greenhills_nodejs_server_preTrafficHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/codedeployhook/greenhills_nodejs_server_preTrafficHook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584614135086</updated>
-      <workItem from="1584614139851" duration="30814000" />
+      <workItem from="1584614139851" duration="37724000" />
     </task>
     <task id="LOCAL-00001" summary="updated unit tests">
       <created>1584801221064</created>
@@ -172,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584801221064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated for sam code deployment">
+      <created>1584805408499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584805408499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,9 +183,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated unit tests" />
+    <MESSAGE value="updated for sam code deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated for sam code deployment" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#JSHint" timestamp="1584961394836">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#JSHint/-199.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1584961394836" />
+    <state x="320" y="127" key="#Notifications" timestamp="1584961761137">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Notifications/-199.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1584961761137" />
     <state x="361" y="-863" key="#Project_Structure" timestamp="1584802386344">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
@@ -207,14 +219,16 @@
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
     <state x="524" y="-813" key="#xdebugger.evaluate/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632855595" />
-    <state x="371" y="-926" key="CommitChangelistDialog2" timestamp="1584805380921">
-      <screen x="-199" y="-1057" width="1920" height="1057" />
+    <state x="428" y="105" key="CommitChangelistDialog2" timestamp="1584962938964">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="371" y="-926" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584805380921" />
-    <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog" timestamp="1584805289791">
-      <screen x="-199" y="-1057" width="1920" height="1057" />
+    <state x="371" y="-926" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584805408389" />
+    <state x="428" y="105" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1584962938964" />
+    <state x="75" y="106" width="1290" height="712" key="DiffContextDialog" timestamp="1584962906713">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="-99" y="-957" width="1720" height="857" key="DiffContextDialog/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584805289791" />
+    <state x="75" y="106" width="1290" height="712" key="DiffContextDialog/-199.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1584962906713" />
     <state width="939" height="290" key="GridCell.Tab.0.bottom" timestamp="1584802436427">
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>

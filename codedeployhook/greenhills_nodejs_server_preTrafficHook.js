@@ -6,7 +6,6 @@ const codedeploy = new AWS.CodeDeploy({apiVersion: '2014-10-06'});
 let lambda = new AWS.Lambda();
 
 exports.handler = (event, context, callback) => {
-
     console.log("Entering PreTraffic Hook!");
 
     // Read the DeploymentId & LifecycleEventHookExecutionId from the event payload
@@ -17,9 +16,12 @@ exports.handler = (event, context, callback) => {
     console.log("Testing new function version: " + functionToTest);
 
     // Perform validation of the newly deployed Lambda version
+    const testEvent = { pathParameters: { contact_id: "1"} };
     let lambdaParams = {
         FunctionName: functionToTest,
-        InvocationType: "RequestResponse"
+        InvocationType: "RequestResponse",
+        LogType: "Tail",
+        Payload: JSON.stringify(testEvent)
     };
 
     let lambdaResult = "Failed";
@@ -43,7 +45,7 @@ exports.handler = (event, context, callback) => {
                 console.log ("Validation testing: correct status code returned");
                 let bodyResult = JSON.parse(result.body);
                 console.log("Body is: " +  JSON.stringify(bodyResult));
-                if (bodyResult.emailAddress !== "contact@greenhillsconsultancy.co.uk") {
+                if (bodyResult.email !== "contact@greenhillsconsultancy.co.uk") {
                     lambdaResult = "Failed";
                     console.log ("Validation testing for email contact address failed!");
                 } else {
