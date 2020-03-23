@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c235d-77af-422c-873d-62948d1bca5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codedeployhook/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codedeployhook/greenhills_nodejs_server_preTrafficHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/codedeployhook/greenhills_nodejs_server_preTrafficHook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584614135086</updated>
-      <workItem from="1584614139851" duration="37724000" />
+      <workItem from="1584614139851" duration="39507000" />
     </task>
     <task id="LOCAL-00001" summary="updated unit tests">
       <created>1584801221064</created>
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584805408499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates to resolve issues with automated CodeDeploy">
+      <created>1584962958941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584962958941</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +188,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated unit tests" />
     <MESSAGE value="updated for sam code deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated for sam code deployment" />
+    <MESSAGE value="updates to resolve issues with automated CodeDeploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates to resolve issues with automated CodeDeploy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#JSHint" timestamp="1584961394836">
@@ -219,11 +224,11 @@
       <screen x="-199" y="-1057" width="1920" height="1057" />
     </state>
     <state x="524" y="-813" key="#xdebugger.evaluate/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584632855595" />
-    <state x="428" y="105" key="CommitChangelistDialog2" timestamp="1584962938964">
+    <state x="428" y="105" key="CommitChangelistDialog2" timestamp="1584962958751">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="-926" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@-199.-1057.1920.1057" timestamp="1584805408389" />
-    <state x="428" y="105" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1584962938964" />
+    <state x="428" y="105" key="CommitChangelistDialog2/-199.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1584962958751" />
     <state x="75" y="106" width="1290" height="712" key="DiffContextDialog" timestamp="1584962906713">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
