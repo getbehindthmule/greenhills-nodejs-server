@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/codedeployhook/codedeployhook.iml" filepath="$PROJECT_DIR$/codedeployhook/codedeployhook.iml" />
       <module fileurl="file://$PROJECT_DIR$/contactdetail/contactdetail.iml" filepath="$PROJECT_DIR$/contactdetail/contactdetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/greenhills-nodejs-server.iml" filepath="$PROJECT_DIR$/greenhills-nodejs-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/requestauthorisation/requestauthorisation.iml" filepath="$PROJECT_DIR$/requestauthorisation/requestauthorisation.iml" />
     </modules>
   </component>
 </project>

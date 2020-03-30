@@ -9,6 +9,7 @@ const after = require("mocha").after;
 const it = require('mocha').it;
 const app = require('../app');
 const event = {
+    "methodArn": "methodArn",
     "resource": "/details/{contact_id}",
     "path": "/details/1",
     "httpMethod": "GET",
@@ -134,11 +135,11 @@ const event = {
     "isBase64Encoded": false
 };
 
-describe('main lambda handler tests', function () {
+describe('main authorization handler tests', function() {
 
     before('set up mocks', function () {
         AWS.mock('DynamoDB.DocumentClient', 'get', function (params, callback) {
-            callback(null, { Item: { id: 1, phone: '074 1500 1600', email: 'gerardsavage@me.com'}});
+            callback(null, { Item: {authorization: '["http://localhost:3000", "https://www.greenhillsconsultancy.co.uk"]'} });
         });
     });
 
@@ -146,36 +147,33 @@ describe('main lambda handler tests', function () {
         AWS.restore('DynamoDB');
     });
 
-    it('response body should return an object with id, phone and email properties', async function () {
+    it('response body should return allow access when valid origin specified', async function () {
         // arrange
         let context;
+        event.headers.origin = 'http://localhost:3000';
 
         // act
         const result = await app.lambdaHandler(event, context);
 
         // assert
-        let responseBody = JSON.parse(result.body);
-        responseBody.should.have.property('id');
-        responseBody.should.have.property('phone');
-        responseBody.should.have.property('email');
+        result.policyDocument.Statement[0].Action.should.equal('execute-api:Invoke');
+        result.policyDocument.Statement[0].Effect.should.equal('Allow');
+        result.policyDocument.Statement[0].Resource.should.equal('methodArn');
 
     });
 
-    it('verify successful response', async function () {
+    it('response body should return deny access when invalid origin specified', async function () {
         // arrange
         let context;
-        const expectedPhoneNumber = '074 1500 1600';
-        const expectedEmail = 'gerardsavage@me.com';
-        const expectedBody = {id: 1,phone: expectedPhoneNumber,email: expectedEmail};
+        event.headers.origin = 'https://google.com';
 
         // act
-        const  result = await app.lambdaHandler(event, context);
+        const result = await app.lambdaHandler(event, context);
 
         // assert
-        let responseBody = JSON.parse(result.body);
-        result.statusCode.should.equal(200);
-        responseBody.should.deep.equal(expectedBody);
+        result.policyDocument.Statement[0].Action.should.equal('execute-api:Invoke');
+        result.policyDocument.Statement[0].Effect.should.equal('Deny');
+        result.policyDocument.Statement[0].Resource.should.equal('methodArn');
 
     });
-
 });

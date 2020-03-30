@@ -10,8 +10,37 @@ Globals:
     Environment:
       Variables:
         TABLE_NAME: greenhills-contacts
+        AUTHORIZATION_TABLE_NAME: greenhills-authorization
+  Api:
+    Cors:
+      AllowMethods: "'POST, PUT, GET, OPTIONS'"
+      AllowHeaders: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+      AllowOrigin: "'//localhost:3000, //www.greenhillsconsultancy.co.uk'"
 
 Resources:
+  ContactDetailsApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: Prod
+      Auth:
+        DefaultAuthorizer: MyLambdaRequestAuthorizer
+        Authorizers:
+          MyLambdaRequestAuthorizer:
+            FunctionPayloadType: REQUEST
+            FunctionArn: !GetAtt ContactDetailsAuthFunction.Arn
+            # FunctionInvokeRole: !Ref MyRole
+            Identity:
+              Headers:
+                - Origin
+              # QueryStrings:
+              #  - auth
+              # NOTE: Additional options:
+              # StageVariables:
+              #   - AUTHORIZATION
+              # Context:
+              #   - authorization
+              # ReauthorizeEvery: 100 # seconds
+
   ContactDetailsFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
@@ -34,8 +63,22 @@ Resources:
         ContactDetails:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
+            RestApiId: !Ref ContactDetailsApi
             Path: /details/{contact_id}
             Method: get
+            # NOTE: Uncomment the two lines below to make `GET` publicly accessible
+            # Auth:
+            #   Authorizer: NONE
+
+  ContactDetailsAuthFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: requestauthorisation
+      Handler: app.lambdaHandler
+      Runtime: nodejs12.x
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: greenhills-authorization
 
   AliasErrorMetricGreaterThanZeroAlarm:
     Type: "AWS::CloudWatch::Alarm"
@@ -105,9 +148,9 @@ Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
   # Find out more about other implicit resources you can reference within SAM
   # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
-  ContactDetailsApi:
-    Description: "API Gateway endpoint URL for Prod stage for Hello World function"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
+  ContactDetailsApiURL:
+    Description: "API Gateway endpoint URL for Prod stage "
+    Value: !Sub "https://${ContactDetailsApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
   ContactDetailsFunction:
     Description: "Hello World Lambda Function ARN"
     Value: !GetAtt ContactDetailsFunction.Arn
